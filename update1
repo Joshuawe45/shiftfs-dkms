@@ -51,7 +51,7 @@ fi
 USERNAME=$(whoami)
 
 #check if run as root
-if [ $USERNAME = root ]; then
+if [ $USERNAME = r ]; then
 echo "Don't run this as root!" 
 #check for existing folder backup
   elif [ -d backup ]; then
